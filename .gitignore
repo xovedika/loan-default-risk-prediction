@@ -3,7 +3,8 @@ __pycache__/
 *.pyc
 .venv/
 .mplconfig/
-models/
+models/*
+!models/best_model.joblib
 data/*.csv
 reports/
 images/*.png
