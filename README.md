@@ -115,12 +115,8 @@ On the OpenML German Credit dataset, the best model from the latest run was Logi
 
 Top risk factors from the interpretability report included checking account status, credit history, loan duration, purpose, and credit amount.
 
-## Resume Line
-
 Use the generated `reports/resume_line.txt` after training. Template:
 
 > Built an end-to-end loan default prediction pipeline on German Credit Data, comparing Logistic Regression, Random Forest, and boosted trees with probability-focused evaluation and SHAP/permutation interpretability, achieving X.XXX ROC-AUC while addressing class imbalance through SMOTE/class weighting and cost-sensitive analysis.
-
-## Why This Project Fits Amazon ML Summer School
 
 This project demonstrates the fundamentals tested in selection rounds: probability, statistics, linear algebra via PCA, supervised learning, model evaluation beyond accuracy, and applied problem solving. It also shows practical ML engineering through reproducible scripts, modular preprocessing, interpretable results, and a deployable demo.
