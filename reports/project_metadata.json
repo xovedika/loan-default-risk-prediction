@@ -1,0 +1,135 @@
+{
+  "dataset": {
+    "name": "Cached credit risk dataset",
+    "source": "C:\\Users\\vedik\\Documents\\Codex\\2026-06-12\\colored-location-online-amazon-ml-summer\\loan-default-risk-prediction\\data\\credit_data.csv",
+    "rows": 1000,
+    "columns": 21,
+    "default_rate": 0.3
+  },
+  "features": [
+    "checking_status",
+    "duration",
+    "credit_history",
+    "purpose",
+    "credit_amount",
+    "savings_status",
+    "employment",
+    "installment_commitment",
+    "personal_status",
+    "other_parties",
+    "residence_since",
+    "property_magnitude",
+    "age",
+    "other_payment_plans",
+    "housing",
+    "existing_credits",
+    "job",
+    "num_dependents",
+    "own_telephone",
+    "foreign_worker"
+  ],
+  "categorical_values": {
+    "checking_status": [
+      "0<=X<200",
+      "<0",
+      ">=200",
+      "no checking"
+    ],
+    "credit_history": [
+      "all paid",
+      "critical/other existing credit",
+      "delayed previously",
+      "existing paid",
+      "no credits/all paid"
+    ],
+    "purpose": [
+      "business",
+      "domestic appliance",
+      "education",
+      "furniture/equipment",
+      "new car",
+      "other",
+      "radio/tv",
+      "repairs",
+      "retraining",
+      "used car"
+    ],
+    "savings_status": [
+      "100<=X<500",
+      "500<=X<1000",
+      "<100",
+      ">=1000",
+      "no known savings"
+    ],
+    "employment": [
+      "1<=X<4",
+      "4<=X<7",
+      "<1",
+      ">=7",
+      "unemployed"
+    ],
+    "personal_status": [
+      "female div/dep/mar",
+      "male div/sep",
+      "male mar/wid",
+      "male single"
+    ],
+    "other_parties": [
+      "co applicant",
+      "guarantor",
+      "none"
+    ],
+    "property_magnitude": [
+      "car",
+      "life insurance",
+      "no known property",
+      "real estate"
+    ],
+    "other_payment_plans": [
+      "bank",
+      "none",
+      "stores"
+    ],
+    "housing": [
+      "for free",
+      "own",
+      "rent"
+    ],
+    "job": [
+      "high qualif/self emp/mgmt",
+      "skilled",
+      "unemp/unskilled non res",
+      "unskilled resident"
+    ],
+    "own_telephone": [
+      "none",
+      "yes"
+    ],
+    "foreign_worker": [
+      "no",
+      "yes"
+    ]
+  },
+  "numeric_defaults": {
+    "duration": 18.0,
+    "credit_amount": 2317.0,
+    "installment_commitment": 3.0,
+    "residence_since": 3.0,
+    "age": 33.0,
+    "existing_credits": 1.0,
+    "num_dependents": 1.0
+  },
+  "best_model": "logistic_regression",
+  "best_metrics": {
+    "model": "logistic_regression",
+    "roc_auc": 0.7998809523809525,
+    "average_precision": 0.636695362164309,
+    "f1": 0.6482758620689655,
+    "business_cost": 103.0,
+    "false_negatives": 13.0,
+    "false_positives": 38.0,
+    "true_positives": 47.0,
+    "true_negatives": 102.0,
+    "cv_roc_auc": 0.7738636363636363
+  }
+}

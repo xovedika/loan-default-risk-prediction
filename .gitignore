@@ -6,7 +6,8 @@ __pycache__/
 models/*
 !models/best_model.joblib
 data/*.csv
-reports/
+reports/*
+!reports/project_metadata.json
 images/*.png
 images/*.csv
 
